@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('./assets/background.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    /* Add the following properties for background blur */
+    backdrop-filter: blur(5px); /* Adjust blur amount as desired */
+  }
+  
+  header {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: rgba(0, 0, 0, 0.7); /* Adjust transparency as needed */
+    color: #fff;
+    border-radius: 1rem;
+  }
+
+  footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.7);;
+    margin-top: 20px;
+    color: #fff;
+  }
+
+  .buttons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .button {
+    background: #fff; /* Change background color */
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    margin: 20px;
+    width: 200px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease;
+  }
+  
+  .button img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .button p {
+    margin: 0;
+    padding: 15px 0;
+    background: #333; /* Change button text background color */
+    color: #fff;
+  }
+  
+  .button:hover {
+    transform: translateY(-5px); /* Adjust hover effect distance  */
+    background-color: #ddd; /* Add a hover background color change */
+  }
+  
+.header_image{
+    max-width: 20%;
+    max-height: 10%;
+}
+
+
+  
