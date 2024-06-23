@@ -22,8 +22,12 @@ body {
     background-color: rgba(0, 0, 0, 0.7);;
     margin-top: 20px;
     color: #fff;
+    border-radius: 1rem;
   }
 
+  a{
+    text-decoration: none;
+  }
   .buttons {
     display: flex;
     justify-content: space-around;
@@ -37,7 +41,7 @@ body {
     overflow: hidden;
     text-align: center;
     margin: 20px;
-    width: 200px;
+    width: 250px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
   }
@@ -45,6 +49,7 @@ body {
   .button img {
     width: 100%;
     height: auto;
+    display: block;
   }
   
   .button p {
@@ -65,4 +70,24 @@ body {
 }
 
 
-  
+.social-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+  }
+
+  .social-button {
+    margin: 0 10px;
+    text-align: center;
+  }
+
+  .social-button img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .social-button p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #fff;
+  }
