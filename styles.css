@@ -91,3 +91,11 @@ body {
     font-size: 14px;
     color: #fff;
   }
+
+  .contacts{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: small;
+    line-height: 20px;
+  }
